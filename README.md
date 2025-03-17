@@ -4,7 +4,7 @@ This is the repository that contains source code for the [MPEC website](https://
 
 If you find MPEC useful for your work please cite:
 ```
-@article{park2021nerfies
+@article{wang2025mpec
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
   title     = {Masked Point-Entity Contrast for Open-Vocabulary 3D Scene Understanding},
   booktitle = {Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR)},
