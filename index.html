@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -75,6 +75,9 @@
           <a class="navbar-item" href="https://scenediffuser.github.io/">
             SceneDiffuser
           </a>
+          <a class="navbar-item" href="https://beacon-3d.github.io/">
+            Beacon3D
+          </a>
         </div>
       </div>
     </div>
@@ -111,9 +114,9 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <!-- <a href="https://arxiv.org/pdf/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark"> -->
-                <a target="_blank" class="external-link button is-normal is-rounded is-dark" disabled>
+                <a href="https://arxiv.org/pdf/2504.19500"
+                   class="external-link button is-normal is-rounded is-dark">
+                <!-- <a target="_blank" class="external-link button is-normal is-rounded is-dark" disabled> -->
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
@@ -121,9 +124,9 @@
                 </a>
               </span>
               <span class="link-block">
-                <!-- <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark"> -->
-                <a target="_blank" class="external-link button is-normal is-rounded is-dark" disabled>
+                <a href="https://arxiv.org/abs/2504.19500"
+                   class="external-link button is-normal is-rounded is-dark">
+                <!-- <a target="_blank" class="external-link button is-normal is-rounded is-dark" disabled> -->
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
@@ -132,7 +135,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a target="_blank" href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                <a target="_blank" href="https://www.youtube.com/watch?v=9-aIVembRtc"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -276,7 +279,7 @@
         <hr>
         <h2 class="title is-3">Explanatory Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+          <iframe src="https://www.youtube.com/embed/9-aIVembRtc?si=yzQXIBEnwIdaGy6F"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
@@ -293,7 +296,11 @@
       <div class="column is-full-width">
         <hr>
         <h2 class="title is-3">Pipeline</h2>
-          <img src="static/images/model.png" style="width: 100%; margin-right: auto; margin-left: auto; margin-top: auto;">
+          <!-- <img src="static/images/model.png" style="width: 100%; margin-right: auto; margin-left: auto; margin-top: auto;"> -->
+          <video id="pipeline" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/model.mp4"
+                    type="video/mp4">
+          </video>
       </div>
     </div>
 
@@ -356,6 +363,7 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Qualitative Results</h2>
         <img src="static/images/vis_transparent.png" style="width: 100%;">
+        <img src="static/images/vis2_transparent.png" style="width: 100%;">
       </div>
     </div>
   </div>
@@ -365,10 +373,10 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{wang2025mpec,
+    <pre><code>@inproceedings{wang2025masked,
   author    = {Wang, Yan and Jia, Baoxiong and Zhu, Ziyu and Huang, Siyuan},
   title     = {Masked Point-Entity Contrast for Open-Vocabulary 3D Scene Understanding},
-  booktitle = {CVPR},
+  booktitle = CVPR,
   year      = {2025},
 }</code></pre>
   </div>
